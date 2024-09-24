@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #EAC926;
+}
+
+/* main */
+.banner_home {
+    width: 100%;
+}
+
+.img_ultima_vista {
+    width: 85%;
+}
+
+.img_productos {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin: 15px;
+}
+
+p {
+    margin: 10px;
+}
+
+.titulo_productos {
+    font-weight: bold;
+}
+
+/* footer */
+.beneficios_footer {
+    text-align: justify;
+    list-style-type: none;
+    list-style: none;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h3 {
+    margin: 15px;
+}

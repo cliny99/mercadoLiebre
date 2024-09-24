@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* HEADER */
+body{
+    background-color: #EAC926;
+}
+.header_nav{
+    display: flex;
+    padding: 10px;
+}
+header img{
+    width: 50%;
+}
+.container_sign_in{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+}
+/* MAIN */
+main h3{
+    color: white;
+}
+main p{
+    color: white;
+}
+.container_color_azul{
+    background-color: #03264C;
+    width: 90%;
+    border-radius: 20px;
+    margin-left: 5%;
+}
+.titulo_crea_cuenta{
+    display: flex;
+    justify-content: center;
+}
+.container_vender_comprar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_dato_personal{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.container_perfil_usuario{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
