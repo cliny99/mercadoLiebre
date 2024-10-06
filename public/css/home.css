@@ -4,11 +4,43 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto';
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 header {
     background-color: #EAC926;
 }
 
+.header_nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.burger_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10%;
+    background-color: #1259c3;
+    color: white;
+}
+
 /* main */
+
+main{
+    background-color: #ebebeb;
+}
 .banner_home {
     width: 100%;
 }
@@ -22,27 +54,45 @@ header {
     justify-content: center;
 }
 
-h1 {
-    margin: 15px;
+.ultima_vista p{
+    font-size: 16px;
+}
+
+h2 {
+    margin: 24px;
+}
+
+.precio{
+    font-size: 18px;
 }
 
 p {
     margin: 10px;
 }
 
-.titulo_productos {
-    font-weight: bold;
-}
-
 /* footer */
 .beneficios_footer {
-    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     list-style-type: none;
     list-style: none;
-    padding-left: 10%;
-    padding-right: 10%;
+}
+
+.footer_icon{
+    display: flex;
+    justify-content: center;
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
 }
 
 h3 {
-    margin: 15px;
+    font-size: 16px;
+}
+
+.beneficios_footer p{
+    font-size: 12px;
+    margin-bottom: 25px;
 }
