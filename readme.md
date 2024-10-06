@@ -147,3 +147,43 @@ PASO 3
 
 PASO 4
     Agregar estilos a los formularios. Aquí les dejo un ejemplo. No necesariamente debe quedar igual, pero sí que estéticamente esté relacionado con la paleta de colores del sitio.
+
+Fourth Task (TP05):
+
+PASO 1
+    El equipo de diseño nos solicita que cumplamos con los siguientes requerimientos
+    para cada uno de los productos que se muestran en el sitio:
+
+    ● Debemos centrar la sección main y que ocupe un 90% del ancho de la
+    pantalla.
+    ● Entre cada artículo hay una separación de 10 píxeles.
+    ● Nos piden que manejemos el logo del envío, el precio, el porcentaje de
+    descuento y la descripción del artículo como elementos de una caja dentro
+    de la caja general del artículo.
+    ● Nos piden que la misma tenga un borde superior de 1 píxel, línea sólida y
+    color #ebebeb.
+    ● Debe tener separado el contenido de sus bordes en 15 píxeles en cada uno
+    de sus lados.
+
+PASO 2
+    Tomando los requerimientos del equipo de usabilidad, debemos implementar los
+    siguientes puntos de corte:
+
+    ● Navegación en tablets (ancho mínimo sugerido 768 px)
+    ● Navegación en desktop (ancho mínimo sugerido 1024 px)
+
+    Importante:
+
+    ● Solo en el caso mobile la descripción del artículo no se visualizará.
+    ● Agregar box-shadow para los dispositivos tablet o de resoluciones
+    superiores. Sugerimos utilizar los siguientes valores:
+
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
+PASO 3
+    Para la sección del Header debemos:
+
+    ● Solo para la versión mobile, ocultar el site y el login navbar.
+    ● Para las versiones desktop y tablet mostrar
+    el site y login navbar, pero ocultar la imagen
+    del menú hamburguesa.
