@@ -19,7 +19,35 @@ header {
 }
 
 .logo{
-    width: 50%;
+    width: 33%;
+    margin-top: 10px;
+}
+.nav_contenedor{
+    display: flex;
+    form{
+        margin-top: 2%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    input{
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+        width: 190px;
+    }
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fa-magnifying-glass{
+    position: relative;
+    right: 23px;
+}
+.contenedor_leyenda{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 8px
 }
 
 .header_nav{
@@ -27,6 +55,13 @@ header {
     flex-direction: column;
     display: none;
 }
+.nav1{
+    display: none;
+}
+.nav2{
+    display: none;
+}
+
 
 .burger_button{
     display: flex;
@@ -78,6 +113,16 @@ main{
 hr{
     color: #ebebeb;
     border: solid 1px;
+    margin: 0;
+}
+
+.container_icono{
+    display: inline-flex;
+    position: relative;
+    bottom: 15px;
+    justify-content: end;
+    left: 80%;
+    background-color: white;
 }
 
 .fa-truck{
@@ -88,8 +133,26 @@ hr{
     font-size: 13px;
 }
 
+.container_descuento_precio{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    h4{
+        width: 30%;
+    }
+    p{
+        width: 70%;
+    }
+    justify-content: center;
+    position: relative;
+    bottom: 40%;
+}
+
 .descripcion_art{
-    margin: 15px;
+    margin: 0;
+    height: 50px;
+
 }
 
 .titulo_productos{
@@ -142,32 +205,137 @@ h3 {
 }
 
 @media(min-width:768px){
+    
+    .nav_contenedor{
+        margin: 0%;
+        display: flex;
+        flex-wrap: nowrap;
+        
+        form{
+            width: 33%;
+            margin-top: 0%;
+            align-content: center;
+            text-align: center;
+            margin-left: 19px;
+    }
+    .logo{
+        margin-top: 10px;
+    }
+    input{
+        align-items: center;
+        margin: 0;
+    }
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    }
+
+    .contenedor_leyenda{
+        justify-content: start;
+        text-align: center;
+        p {
+            font-size: medium;
+            justify-content: start;
+
+        }
+
+    }
+
     .header_nav{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 3%;
+    }
+    .nav1{
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+    }
+    .nav2{
+        display: flex;
+        justify-content: center;
+        gap: 12px;
     }
     .burger_button{
         display: none;
     }
+    .section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
     .articulo{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
+    .descripcion_art{
+        height: auto;
+    }
+    .container_icono{
+        background-color: white;
+    }
+    hr{
+        margin: 0;
+    }
     .titulo_productos{
         display: flex;
+        margin: 0% 0% 2% 2%;
     }
     
 }
 
 @media(min-width:1025px){
+    .nav_contenedor{
+        margin: 0%;
+        display: flex; 
+    form{
+        width: 50%;
+        margin-top: 0%;
+        align-content: center;
+        text-align: center;
+        margin-left: 19px;
+    }
+    .logo{
+        margin-top: 10px;
+    }
+    input{
+        align-items: center;
+        margin: 0;
+        width: 400px;
+    }
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    }
+    .contenedor_leyenda{
+        width: 33%;
+    }
     .header_nav{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 3%;
+    }
+    .nav1{
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+    }
+    .nav2{
+        display: flex;
+        justify-content: center;
+        gap: 12px;
     }
     .burger_button{
         display: none;
     }
     .articulo{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .section{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
     }
     .titulo_productos{
         display: flex;
